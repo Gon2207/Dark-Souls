@@ -13,10 +13,6 @@ body{
     color: white;
 }
 
-.texto{
-    font-family: 'Lora', serif;
-    color: white;
-}
 
 /* Caroulsel */
 
@@ -27,14 +23,50 @@ body{
 /* inicio */
 
 .inicio{
-    display: flex;
-    
+    display: flex; 
     padding: 5px 5px;
-    margin: 70px 80px 100px 80px;
+    margin: 70px 70px 50px 70px;
+    /* border: 1px solid pink ; */
+}
+
+.texto{
+    font-family: 'Lora', serif;
+    color: white;
+    margin: 0px 50px;
+    /* border: 1px solid red; */
 }
 
 .imgInicio{
     display: flex;
-    width: 100px;
-    
+    margin: 0px 50px 0px 10px;
+    /* border: 1px solid blue; */
+}
+
+.cebollin{
+    display: flex;
+    width: 400px;
+}
+
+.subTitulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+/* cartas */
+
+.cartas{
+    margin: 50px 125px 100px 125px;
+}
+
+.cards{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
 }
