@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{
+    background-color: black;
+}
+
+.Titulo{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.texto{
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+/* Caroulsel */
+
+.carousel{
+    margin: 50px 125px 0px 125px;
+}
+
+/* inicio */
+
+.inicio{
+    display: flex;
+    
+    padding: 5px 5px;
+    margin: 70px 80px 100px 80px;
+}
+
+.imgInicio{
+    display: flex;
+    width: 100px;
+    
+}
