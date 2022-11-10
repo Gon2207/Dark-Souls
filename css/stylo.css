@@ -17,7 +17,7 @@ body{
 /* Caroulsel */
 
 .carousel{
-    margin: 50px 125px 0px 125px;
+    margin: 100px 50px 0px 50px;
 }
 
 /* inicio */
@@ -29,11 +29,20 @@ body{
     /* border: 1px solid pink ; */
 }
 
-.texto{
+.divText{
+    display: flex;
+    margin: 0px 50px;
+    width: 633px;
+    height: 456px;
+    align-items: center;
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+
+.text{
     font-family: 'Lora', serif;
     color: white;
-    margin: 0px 50px;
-    /* border: 1px solid red; */
+
 }
 
 .imgInicio{
