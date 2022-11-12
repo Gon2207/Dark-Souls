@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/stylo.css">
     <title>The Dark Souls 3</title>
 </head>
@@ -22,28 +23,24 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Bosses</a>
+                    <a class="nav-link" href="#">Personajes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Jefes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://steamcommunity.com/app/374320?l=spanish">Comunidad</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Objetos</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trilogia</a>
+                    <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink" style="background-color:#e5801a;">
+                        <li><a class="dropdown-item" href="#">Dark Souls</a></li>
+                        <li><a class="dropdown-item" href="#">Dark Souls II</a></li>
+                        <li><a class="dropdown-item" href="#">Dark Souls III</a></li>
                       </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Pactos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                   </li>
                 </ul>
               </div>
@@ -80,10 +77,10 @@
     <div>
         <section class="inicio">
             <div class="divText">
-              <p class="text">Esta es una fanpage de Dark Souls tratando de informar y ayudar a los que recien comiencen en este viaje en las tierras de los Dark Souls</p>
+              <p class="text" data-aos="fade-right">Esta es una fanpage de Dark Souls tratando de informar y ayudar a los que recien comiencen en este viaje en las tierras de los Dark Souls</p>
             </div>
             <section class="imgInicio">
-              <img src="img/cebollin.png" class="cebollin">
+              <img src="img/cebollin.png" class="cebollin" data-aos="fade-left">
             </section>      
         </section> 
     </div>
@@ -95,7 +92,7 @@
       <div class="cartas">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-right" style="background-color:#000000;">
               <a href="#"><img src="img/darkSouls1remaster.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title"><a  class="cards" href="#">Dark Souls</a></h5>
@@ -103,7 +100,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" style="background-color:#000000;">
               <a href="#"><img src="img/darkSouls2scholar.webp" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title"><a class="cards" href="#">Dark Souls II</a></h5>
@@ -111,7 +108,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-left" style="background-color:#000000;">
               <a href="#"><img src="img/darkSouls3.webp" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title"><a class="cards" href="#">Dark Souls III</a></h5>
@@ -120,6 +117,12 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section>
+      <h2 class="subTitulo">Comunidad</h2>
+      
+      <div class="comunidad"></div>
     </section>
 
 
@@ -171,10 +174,11 @@
 
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
