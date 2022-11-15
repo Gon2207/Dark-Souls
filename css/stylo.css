@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 body{
     background-color: black;
+    width: 100%;
 }
 
 .Titulo{
@@ -17,11 +23,14 @@ body{
     margin-left: 50px;
 }
 
+.fondoNav{
+    width: 100%;
+}
 
 /* Caroulsel */
 
 .carousel{
-    margin: 70px 15px 0px 10px;
+    margin: 70px 70px 0px 70px;
 }
 
 /* end caroulsel */
@@ -48,7 +57,6 @@ body{
 .text{
     font-family: 'Lora', serif;
     color: white;
-
 }
 
 .imgInicio{
@@ -71,6 +79,19 @@ body{
     justify-content: center;
     color: white;
     font-family: 'Cinzel', serif;
+    padding-bottom: 20px;
+}
+
+.quienSoy{
+    display: flex;
+    margin: 0px 20px;
+    font-size: 30px;
+    width: 600px;
+}
+
+.textSoy{
+    font-family: 'Lora', serif;
+    color: white;
 }
 
 /* end inicio */
@@ -97,6 +118,9 @@ body{
 
 
 @media (max-width: 992px){
+    
+    /* Incio */
+    
     .inicio{
         display: flex; 
         padding: 5px 0px;
@@ -114,6 +138,7 @@ body{
 
     .text{
         padding: 10px 10px;
+        font-size: 20px;
     }
 
     .cebollin{
@@ -133,7 +158,39 @@ body{
         margin: 0px 10px 0px 10px;
     }
 
+    /* End */
+
+    /* Carousel */
+
     .carousel{
         margin: 70px 10px 0px 10px;
     }
+
+    /* End Carousel */
+
+    /* Cards */
+
+    .cartas{
+        margin: 50px 50px 100px 50px;
+    }
+
+    /* End Card */
+
+    /* Quien soy */
+    
+    .quienSoy{
+        width: 100%;
+
+    }
+
+    .textSoy{
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+
+    .fondoNav{
+        width: 100%;
+    }
+
+
 }
