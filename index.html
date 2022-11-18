@@ -35,10 +35,10 @@
                       </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quien soy</a>
+                    <a class="nav-link" href="#QuienSoy">Quien soy</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#Contacto">Contacto</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" target="_blank" href="https://steamcommunity.com/app/374320?l=spanish">Comunidad</a>
@@ -86,18 +86,18 @@
             </section>      
         </section> 
     </div>
-    <section>
-      <h2 class="subTitulo">Trilogia</h2>
 
+    <h2 class="subTitulo">Trilogia</h2>
+
+    <section class="cartas">
       <!-- Cartas -->
-      
-      <div class="cartas">
+      <div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card" data-aos="zoom-in-right" style="background-color:#000000;">
               <a href="#"><img src="img/darkSouls1remaster.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
-                <h5 class="card-title"><a  class="cards" href="#">Dark Souls</a></h5>
+                <h5 class="card-title"><a class="cards" href="#">Dark Souls</a></h5>
               </div>
             </div>
           </div>
@@ -121,15 +121,43 @@
       </div>
     </section>
 
-    <section>
+    <h2 class="subTitulo">Trailer</h2>
+
+    <section class="trailer">
+      <video width="1000" controls>
+        <source src="vid/Dark Souls III – Launch Trailer PS4.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="QuienSoy" class="secSoy">
       <h2 class="subTitulo">Quien soy</h2>
-      
       <div class="quienSoy">
         <p class="textSoy">
             Mi nombre es Gonzalo Ramiro Quiroga, tengo 19 años, me gusta toda la parte de Front-end; HTML y CSS. <br> En mi tiempo libre trato de investigar todo lo que sea posible sobre los temas y expandir mis conocimientos sobre programacion.<br>
             Soy un gran fan de los juegos y de todo lo relacionado al mismo.
         </p>
+        <div class="gif">
+          <img src="gif/lordCindelSitting.gif" width="300" alt="">
+        </div>
       </div>
+    </section>
+
+    <h2>
+      <p class="subTitulo">Contacto</p>
+    </h2>
+
+    <section id="Contacto" class="sectionForm">
+      <img src="gif/Solaire.gif" class="Solaire" width="280">
+      <div class="form">
+        <form action="">
+        <input type="text" name="Name" placeholder="Name">
+        <input type="text" name="Surname" placeholder="Surname">
+        <input type="text" name="E-mail" placeholder="E-mail">
+        <textarea name="Message" placeholder="Message"></textarea>
+        <input type="button" class="Boton" value="Post">
+        </form>
+      </div>
+      <img src="gif/Solaire.gif" class="Solaire" width="280">
     </section>
 
 
